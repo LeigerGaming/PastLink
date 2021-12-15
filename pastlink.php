@@ -1,7 +1,7 @@
 ﻿<?php
 /*====================================================================================================================*\
   PastLink - HTTP Server for manipulating ALTTP Randomizer on BizHawk
-  (c) Copyright 2021 Phillip Shaw (HatchlingByHeart)
+  Author: Phillip Shaw (HatchlingByHeart)
 \*====================================================================================================================*/
 
 require_once "config.php";
