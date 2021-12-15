@@ -3,9 +3,9 @@ A Web-based alternative to Crowd Control for manipulating an A Link to the Past 
 
 Requirements:
 - A server with the following installed:
-- HTTP server (Apache is recommended)
-- PHP 7.x (only tested with PHP 7.2, may work with other 7.x versions)
-- MySQL or MariaDB database system, with permissions to create and modify your own database and tables.
+	- HTTP server (Apache is recommended)
+	- PHP 7.x (only tested with PHP 7.2, may work with other 7.x versions)
+	- MySQL or MariaDB database system, with permissions to create and modify your own database and tables.
 
 - BizHawk Emulator with BSNES Core
 This is the only supported emulator/core at the moment.
