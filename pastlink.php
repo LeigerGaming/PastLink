@@ -17,6 +17,7 @@ if ($_GET["mode"] == "readDB") {
 		$row = $result->fetch_assoc();
 		// Check if reading from database was successful.
 		// If it is, send message to BizHawk and remove message from the queue.
+		// TODO: Implement a client-side check before deleting from queue instead, in case emulator does not receive the request.
 		if ($row) {
 			echo $row['message'];
 			$result = $db->query("DELETE FROM `".DB_PRFX."queue` WHERE `id` = '".$row['id']."';");
