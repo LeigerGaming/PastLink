@@ -9,6 +9,20 @@ if ($maintenance_mode) {
 
 require_once "config.php";
 
-echo "We are NOT in Maintenance Mode. Hello!" . PHP_EOL;
+// This is just a REALLY rough placeholder page
+$html = "<!DOCTYPE html><html lang='en'>
+<head>
+    <title>PastLink</title>
+    <link href='/public/theme.css' rel='stylesheet'>
+</head>
+<body>";
+
+$html .= "<p>We are NOT in Maintenance Mode. Hello!</p>";
+if (DB_HOST !== null) {
+    $html .= "<p>Configuration loaded.</p>";
+}
+
+$html .= "</body></html>";
+echo $html;
 
 ?>
