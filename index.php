@@ -1,12 +1,14 @@
 <?php
 
-// TODO: Handle this dynamically in the future
-$maintenance_mode = true;
-
 // Check for maintenance mode
+$maintenance_mode = file_exists(__DIR__ . "/.maintenance");
 if ($maintenance_mode) {
     echo "This site is in Maintenance Mode." . PHP_EOL;
     exit(0);
 }
 
-// TODO: We are NOT in maintenance mode, do whatever else we need to do.
+require_once "config.php";
+
+echo "We are NOT in Maintenance Mode. Hello!" . PHP_EOL;
+
+?>
