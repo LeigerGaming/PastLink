@@ -13,7 +13,7 @@ require_once "config.php";
 $html = "<!DOCTYPE html><html lang='en'>
 <head>
     <title>PastLink</title>
-    <link href='/public/theme.css' rel='stylesheet'>
+    <link href='public/theme.css' rel='stylesheet'>
 </head>
 <body>";
 
