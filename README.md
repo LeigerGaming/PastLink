@@ -11,6 +11,10 @@ Requirements:
 This is the only supported emulator/core at the moment.
 Unfortunately, Snes9x-rr and BizHawk's Snes9x core both do not play nice with PastLink.
 
+It should also be noted that only the **Windows** version of BizHawk supports Lua scripting, and hence is the only version PastLink is able to support. There is nothing that can be done to support BizHawk on Mac or Linux until BizHawk is updated to support Lua on those platforms.
+
+Although the ALTTP Randomizer player needs to use Windows to play, because the viewer control panel is a web app, the viewers can be on any platform or device with a modern browser.
+
 Installation Instructions:
 1. Change the "config.php" file to reflect your configuration.
 
