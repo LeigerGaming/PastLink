@@ -4,6 +4,8 @@
   by Phillip Shaw (HatchlingByHeart) 2021
 \*====================================================================================================================*/
 
+// PastLink is currently in Alpha and NOT READY FOR RELEASE, use only for testing until further notice.
+
 require_once "config.php";
 // Read Mode set: Database -> Server -> BizHawk
 // This mode should only be accessed by BizHawk
@@ -23,9 +25,9 @@ if ($_GET["mode"] == "readDB") {
 			$result = $db->query("DELETE FROM `".DB_PRFX."queue` WHERE `id` = '".$row['id']."';");
 		}
 	}
-	// Requester is not using the correct key, deny access and kill script.
+	// Requester is not using the correct key, kill script and return the bad news.
 	else {
-		die();
+		die("WRONGKEY");
 	}
 }
 // Write Mode set: Server -> Database
@@ -39,17 +41,26 @@ else if ($_GET["mode"] == "writeDB") {
 			$user = mysqli_real_escape_string($db, strip_tags($_POST['user']));
 			$result = $db->query("INSERT INTO ".DB_PRFX."queue (id, time, user, ip, message) VALUES (NULL, '".time()."', '".$user."', '".$_SERVER['REMOTE_ADDR']."', '".$_POST['message']."');");
 			if ($result) {
-				echo "";
+				// Request Successful, no further action needed.
+				exit(0);
+			}
+			else {
+				// Request Failed, report the failure to the user.
+				echo "The request failed for an unknown reason. Please try again later.";
 			}
 		}
+		// Message is not set or is blank, kill script and report the problem.
+		else {
+			die("No message present in request. This may be due to an unforeseen error. Please try again.");
+		}
 	}
-	// Message is not set or is blank, don't bother submitting and kill script.
+	// Username is not set or is blank, kill script and report the problem.
 	else {
-		die();
+		die("No username present in request. Please enter your name in the &quot;Username&quot; field and try again.");
 	}
 }
 //Mode not defined, abort and kill script.
 else {
-	die();
+	die("No mode was specified in the request. Try Again.");
 }
 ?>
