@@ -1,3 +1,6 @@
+## The following memory address references are copied from game genie codes on gamehacking.org and decrypted for direct address poking.
+## Not all codes here will be used in the release of PastLink, this is just a preliminary list.
+
 Screwed GFX Mode
 00000004
 
