@@ -26,6 +26,12 @@ Boomerang
 Magic Boomerang
 00F34102
 
+Boomerang Bitmask:
+00F38C00 = No Boomerangs
+00F38C40 = Red Boomerang Only
+00F38C80 = Blue Boomerang Only
+00F38CC0 = Both Boomerangs
+
 Hookshot
 00F34201
 
