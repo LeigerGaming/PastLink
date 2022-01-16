@@ -17,6 +17,11 @@ Bow (Silver, No Arrows)
 Bow (Silver Arrows)
 00F34004
 
+Bow Bitmask:
+00F38E00 = No Bow
+00F38E80 = Normal Bow
+00F38EE0 = Normal and Silver Bow
+
 No Boomerang
 00F34100
 
@@ -118,9 +123,6 @@ Zora's Flippers
 
 Moon Pearl
 00F35701
-
-Power Glove(?)
-00F35801
 
 No Sword
 00F35900
