@@ -1,0 +1,156 @@
+* Indicates Codes that are being considered for removal due to glitches or sideeffects.
+
+000020 XXXX = Y-Axis
+
+000022 XXXX = X-Axis
+
+00005E 01 = Slow Mode
+
+00045A 03 =\
+07CB9A EA =|
+07CB9B EA =| = Let there be light!
+07C1FA EA =|
+07C1FB EA =/
+
+000055 01 = Cloak
+
+000079 00 = Cannot Spin Attack
+
+000079 40 = Auto Spin Attack
+
+000085 50 = Glitch City #1
+
+000085 FF = Glitch City #2
+
+0002E9 01 = Cannot Open Chests
+
+00031F FF = Brief Invincibility
+
+000372 01 = Pinball Mode (Add a Timer or Softlocks may occur)*
+
+00037B 01 = Invincible / Walk Through Enemies
+
+0003F5 01 = Invisible
+
+0003F5 FF = Bunnify (Set Invisibility FIRST)
+
+000D80 00 = Enemy #1 Can't React*
+
+000D81 00 = Enemy #2 Can't React*
+
+000D82 00 = Enemy #3 Can't React*
+
+000D83 00 = Enemy #4 Can't React*
+
+000D84 00 = Enemy #5 Can't React*
+
+000D85 00 = Enemy #6 Can't React*
+
+000D86 00 = Enemy #7 Can't React*
+
+000D87 00 = Enemy #8 Can't React*
+
+000D88 00 = Enemy #9 Can't React*
+
+000D89 00 = Enemy #10 Can't React*
+
+000D8A 00 = Enemy #11 Can't React*
+
+000D8B 00 = Enemy #12 Can't React*
+
+000D8C 00 = Enemy #13 Can't React*
+
+000D8D 00 = Enemy #14 Can't React*
+
+000D8E 00 = Enemy #15 Can't React*
+
+000D8F 00 = Enemy #16 Can't React*
+
+000D90 00 = Enemy #17 Can't React*
+
+000D91 00 = Enemy #18 Can't React*
+
+000D92 00 = Enemy #19 Can't React*
+
+000D93 00 = Enemy #20 Can't React*
+
+000E20 XX = Enemy Mod 1
+
+000E21 XX = Enemy Mod 2
+
+000E22 XX = Enemy Mod 3
+
+000E23 XX = Enemy Mod 4
+
+000E24 XX = Enemy Mod 5
+
+000E25 XX = Enemy Mod 6
+
+000E26 XX = Enemy Mod 7
+
+000E27 XX = Enemy Mod 8
+
+000E28 XX = Enemy Mod 9
+
+000E29 XX = Enemy Mod 10
+
+000E2A XX = Enemy Mod 11
+
+000E2B XX = Enemy Mod 12
+
+000E2C XX = Enemy Mod 13
+
+000E2D XX = Enemy Mod 14
+
+000E2E XX = Enemy Mod 15
+
+000E2F XX = Enemy Mod 16
+
+000E30 XX = Enemy Mod 17
+
+000E31 XX = Enemy Mod 18
+
+000E32 XX = Enemy Mod 19
+
+000E33 XX = Enemy Mod 20
+
+000E50 XX = Enemy Health Mod 1
+
+000E51 XX = Enemy Health Mod 2
+
+000E52 XX = Enemy Health Mod 3
+
+000E53 XX = Enemy Health Mod 4
+
+000E54 XX = Enemy Health Mod 5
+
+000E55 XX = Enemy Health Mod 6
+
+000E56 XX = Enemy Health Mod 7
+
+000E57 XX = Enemy Health Mod 8
+
+000E58 XX = Enemy Health Mod 9
+
+000E59 XX = Enemy Health Mod 10
+
+000E5A XX = Enemy Health Mod 11
+
+000E5B XX = Enemy Health Mod 12
+
+000E5C XX = Enemy Health Mod 13
+
+000E5D XX = Enemy Health Mod 14
+
+000E5E XX = Enemy Health Mod 15
+
+000E5F XX = Enemy Health Mod 16
+
+000E60 XX = Enemy Health Mod 17
+
+000E61 XX = Enemy Health Mod 18
+
+000E62 XX = Enemy Health Mod 19
+
+000E63 XX = Enemy Health Mod 20
+
